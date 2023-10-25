@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+nav{
+    height: 60px;
+    border: 1px solid black;
+}
+
+header{
+    height: 300px;
+    border: 1px solid black;
+}
+
+#div_filtros{
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.filtro{
+    margin-top: 45px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+
+}
+
+#div_recetas{
+
+    display: flex;
+}
+
+.receta{
+    margin-top: 45px;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin-right: 20px;
+
+}

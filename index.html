@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bienvenido a ChefConnect</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -31,19 +31,21 @@
                     suscipit eum veritatis corrupti sapiente amet?
                 </p>
 
-                <form action="">
+                <form action="main.html" method="get">
                     <label for="">Email</label><br>
-                    <input type="text" name="email" id="email" placeholder="example@gmail.com"><br><br>
+                    <input type="text" name="email" id="email" placeholder="example@gmail.com" required><br><br>
 
                     <label for="">Password</label> <br>
-                    <input type="password" name="pass" id="pass"  placeholder="your password here...">
+                    <input type="password" name="pass" id="pass"  placeholder="your password here..." required>
+
+                    <p id="olvido">¿Has olvidado la contraseña?</p>
+
+                    <button type="submit" id="b1">ACCEDER</button><br>
+                    <button id="b2">CREAR CUENTA</button>
 
                 </form>
 
-                <p id="olvido">¿Has olvidado la contraseña?</p>
-
-                <button id="b1">ACCEDER</button><br>
-                <button id="b2">CREAR CUENTA</button>
+               
             </div>
 
 
