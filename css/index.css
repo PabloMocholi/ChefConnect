@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+#container {
+    display: flex;
+}
+
+#imagen {
+    width: 50%;
+    height: 100vh;
+    background-image: url(../images/chefverde.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F9F2E9;
+    background-attachment: fixed;
+    background-position: 10%;
+}
+
+#texto {
+    width: 50%;
+}
+
+#organizar {
+    padding-left: 150px;
+    padding-top: 120px;
+}
+
+p {
+    width: 60%;
+    text-align: justify;
+    font-size: 110%;
+    color: #908f8f;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 320%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+input {
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 60%;
+    border-radius: 8px;
+    border: 1px solid #668666;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#olvido {
+
+    font-size: 90%;
+
+}
+
+#olvido:hover {
+
+    color: #e8644d;
+
+}
+
+button{
+    width: 60%;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#b1{
+    background-color:#e8644d;
+    border: 1px solid #e8644d;
+    color: white;
+}
+
+#b1:hover,#b2:hover{
+    font-weight: bold;
+}
+
+#b2{
+    color:#e8644d;
+    border: 1px solid #e8644d;
+    background-color: white;
+}
