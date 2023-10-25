@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#top{
+    background-image: url(../images/patronflojito.png);
+    border-bottom: 1px solid #668666;
+}
+
+#contacto {
+    display: flex;
+}
+
+#profile_pic {
+
+    width: 400px;
+    height: 400px;
+    border: 2px solid #668666;
+    border-radius: 220px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#datos {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.info{
+    width: 200px;
+    padding: 60px;
+    color: #668666;
+}
+
+#description{
+    flex-grow: 1;
+    padding-top: 0;
+    text-align: justify;
+    
+}
+
+h3{
+    font-size: 180% ;
+    font-weight: bold;
+    font-family: 'Passion One', sans-serif;
+}
+
+
+h5{
+    font-size: 110%;
+    color: rgb(77, 77, 77);
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-family: 'Passion One', sans-serif;
+    font-size: 340%;
+    color: #668666;
+}
+#especialidades{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.filtro{
+    margin-top: 45px;
+    height: 50px;
+    width: 400PX;
+    border: 1px solid #668666;
+    background-color: #668666;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 30px;
+    color: #F9F2E9;
+}
+
+
+#div_recetas{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.receta{
+    margin-top: 45px;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+
+}
+.info_pic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.receta_pic{
+    width: 50px;
+    height: 50px;
+}
