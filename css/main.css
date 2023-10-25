@@ -16,6 +16,7 @@ header{
     height: 200px;
     border: 1px solid black;
     display: flex;
+    justify-content: space-around;
 }
 
 .filtro{
@@ -29,6 +30,7 @@ header{
 #div_recetas{
 
     display: flex;
+    justify-content: space-around;
 }
 
 .receta{
