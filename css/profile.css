@@ -89,6 +89,7 @@ h2{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .receta{
@@ -100,7 +101,7 @@ h2{
 }
 
 .receta:hover{
-    border: 3px solid black;
+    border: 1px solid black;
 }
 
 .info_pic{
@@ -132,12 +133,12 @@ h2{
     border-radius: 15px;
 }
 .desafio{
-    background-color: white;
+    background-color: #F9F2E9;
     text-align: center;
     font-family: 'Passion One', sans-serif; 
     padding: 20px;
-    margin: 0;
+    margin-top: 150px;
     font-size: 200%;
-    border-radius: 14px;
+
     
 }
