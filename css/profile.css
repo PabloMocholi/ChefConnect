@@ -89,22 +89,56 @@ h2{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .receta{
     margin-top: 45px;
     height: 400px;
-    width: 400px;
-    border: 1px solid black;
+    width: 500px;
+    border-radius: 15px;
 
 }
+
+.receta:hover{
+    border: 1px solid black;
+}
+
 .info_pic{
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .receta_pic{
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
+}
+
+.nombre_receta{
+   background-color: #668666;
+   color: white;
+   font-family: 'Passion One', sans-serif; text-align: center;
+   width: 40%;
+   padding: 10px;
+   border-radius: 10px;
+   margin: auto;
+   margin-bottom: 15px;
+}
+
+.fondo_receta{
+    background-color:#F9F2E9;
+    padding: 15px;
+    border-radius: 15px;
+}
+.desafio{
+    background-color: #F9F2E9;
+    text-align: center;
+    font-family: 'Passion One', sans-serif; 
+    padding: 20px;
+    margin-top: 150px;
+    font-size: 200%;
+
+    
 }
