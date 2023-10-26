@@ -46,6 +46,7 @@ h3{
     font-size: 180% ;
     font-weight: bold;
     font-family: 'Passion One', sans-serif;
+    
 }
 
 
@@ -63,7 +64,9 @@ h2{
     font-family: 'Passion One', sans-serif;
     font-size: 340%;
     color: #668666;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
 #especialidades{
     height: 200px;
     display: flex;
@@ -125,6 +128,7 @@ h2{
    border-radius: 10px;
    margin: auto;
    margin-bottom: 15px;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .fondo_receta{
