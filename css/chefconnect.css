@@ -1,0 +1,95 @@
+/*Header*/
+ 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header {
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(28, 28, 28, 0.15);
+
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 24px;
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 24px;
+
+}
+
+.Profile-image {
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/Perfil-image.png);
+    border-radius: 500px;
+    background-size: cover;
+    margin-right: 24px;
+
+
+}
+
+/* ./ desde la carpeta en la que se encuentra donde estás llamando (desde el punto donde estoy) 
+Volver a una carpeta hacia arriba es con ../ (puedes volver a una carpeta hacia atrás) Carpeta raíz)
+*/
+
+
+#menu-items a {
+    padding: 16px;
+    background-color: transparent;
+    padding: 16px;
+    font-size: medium;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin: 24px;
+
+
+}
+
+#menu-items a:hover {
+
+    color: #E8644D;
+    font-weight: 500;
+    border-bottom: 2px solid #E8644D;
+
+}
+
+#menu-items a active {
+    background-color: #F6F3F0;
+    color: #E8644D;
+    border-radius: 16px;
+    font-weight: 500;
+
+}
+
+#menu-items a:active {
+    color: #E8644D;
+    
+
+
+}

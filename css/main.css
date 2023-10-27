@@ -1,37 +1,73 @@
-body{
-    margin: 0;
-}
+ /*banner*/
+
+        #banner {
+            background-image: url(../images/img-home.jpg);
+            background-size: cover;
+            /*width: 100%;*/
+            height: 266px;
+            align-items: center;
+            display: flex;
+
+
+        }
+
+        #contentbanner {
+            align-items: center;
+
+        }
+
+
+        #Textbanner {
+            font-size: 64px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            margin-left: 40px;
 
 
 
+        }
+
+        #Textbannerlorem {
+            font-size: 24px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: lighter;
+            margin-left: 40px;
 
 
-#div_filtros{
-    height: 200px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-around;
-}
+        }
 
-.filtro{
-    margin-top: 45px;
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
 
-}
+        /*Search*/
 
-#div_recetas{
 
-    display: flex;
-    justify-content: space-around;
-}
+        .Search {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: flex-end;
+            align-items: center;
+        }
 
-.receta{
-    margin-top: 45px;
-    height: 400px;
-    width: 400px;
-    border: 1px solid black;
-    margin-right: 20px;
+        #search {
+            margin-right: 0;
+            height: 35px;
+            margin: 16px;
+            border-radius: 8px;
+            color: rgb(68, 68, 68);
+            align-items: center;
+            border: 0.5px solid black;
+            flex-grow: 1;
+            padding-left: 16px;
 
-}
+        }
+
+
+        .Secundarybutton {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 200;
+            font-size: 16px;
+            border-radius: 8px;
+            margin-right: 24px;
+        }
