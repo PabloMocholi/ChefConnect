@@ -48,8 +48,13 @@ header {
     border-radius: 500px;
     background-size: cover;
     margin-right: 24px;
+}
 
-
+.Profile-image a {
+    display: block;
+    width: 60px;
+    height: 60px;
+   
 }
 
 /* ./ desde la carpeta en la que se encuentra donde estás llamando (desde el punto donde estoy) 
