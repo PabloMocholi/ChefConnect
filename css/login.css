@@ -1,0 +1,54 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+form{
+    border: 1px solid black ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50%;
+    border-radius: 8px;
+    border: 1px solid #668666;
+}
+
+.radiob{
+    width: 20px;
+}
+
+
+button{
+    width: 63%;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#b2:hover{
+    font-weight: bold;
+}
+
+#b2{
+    color:#e8644d;
+    border: 1px solid #e8644d;
+    background-color: white;
+}
+
+.tit{
+    font-size: 130%;
+}

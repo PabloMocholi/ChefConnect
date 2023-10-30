@@ -1,33 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/chefconnect.css">
+    <link rel="stylesheet" href="./css/login.css">
+
     <title>Login</title>
 </head>
+
 <body style="background-image: url(./images/patronflojito.png);  background-size: 40%;">
-    
+
+    <!--<header>
+
+        <a class="logo" href="/">
+            <DIV class="profile-image"><img src="images/Tomatina.png" alt="isotipo">
+            </DIV>
+            <span>ChefConnect</span>
+        </a>
+
+
+
+
+        <nav id="menu-items">
+            <a href="main.html">Home</a>
+            <a href="desafios.html">Desafíos</a>
+            <a href="">Eventos</a>
+            <a href="#">Sección 4</a>
+        </nav>
+
+        <div class="Profile-image"></div>
+
+    </header>-->
+
+    <form action="index.html" method="get">
+
+        <label class="tit" for="">Email</label><br>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <label class="tit" for="">Password</label> <br>
+        <input type="password" name="pass" id="pass" required><br><br>
+
+        <label class="tit" for=""> Confirmar password</label> <br>
+        <input type="password" name="c_pass" id="c_pass" required><br><br>
+
+        <label class="tit" for="">Nombre de usuario</label> <br>
+        <input type="text" name="username" id="user" required><br><br>
+
+        <span class="tit" >Género</span> <br>
+        <div id="gen">
+            <input type="radio" id="hombre" name="genero" value="Hombre" class="radiob">
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="genero" value="Mujer" class="radiob">
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="otro" name="genero" value="Otro" class="radiob">
+            <label for="otro">Otro</label> <br><br><br>
+        </div>
+   
+
+        
+        <span class="tit" >Experiencia en cocina</span> <br>
+        <select name="experienc" id="experiencia">
+            <option value="principiante">Principiante</option>
+            <option value="intermedia">Intermedio</option>
+            <option value="experimentado">Experimentada</option>
+            <option value="profesional">Profesional</option>
+        </select>
+      
+        <br><br>
+
+        <span class="tit" >Especialidades</span> <br>
+        <div id="espec">
+            <input type="checkbox" id="vegano" name="vegano" value="1" class="radiob">
+            <label for="vegano"> Vegan Food</label>
+
+            <input type="checkbox" id="gluten" name="gluten" value="1" class="radiob">
+            <label for="gluten"> Gluten Free</label>
+
+            <input type="checkbox" id="japonesa" name="japonesa" value="1" class="radiob">
+            <label for="japonesa"> Japonesa</label>
+
+            <input type="checkbox" id="china" name="china" value="1" class="radiob">
+            <label for="china"> China</label>
+
+            <input type="checkbox" id="thai" name="thai" value="1" class="radiob">
+            <label for="thai"> Thailandesa</label>
+
+            <input type="checkbox" id="tapas" name="tapas" value="1" class="radiob">
+            <label for="tapas"> Tapas</label>
+
+            <input type="checkbox" id="Pasta" name="Pasta" value="1" class="radiob">
+            <label for="Pasta"> Pasta</label>
+
+            <input type="checkbox" id="pizza" name="pizza" value="1" class="radiob">
+            <label for="pizza"> Pizza</label>
+        </div>
+
+        <br><br>
+
+        <button type="submit" id="b2">Crear tu cuenta</button><br>
+
+
+
+
+    </form>
+
 </body>
+
 </html>
-
-<!--<header>
-    <a class="logo" href="/">
-        <DIV class="profile-image"><img src="images/Tomatina.png" alt="isotipo">
-        </DIV>
-        <span>ChefConnect</span>
-    </a>
-
-
-
-
-    <nav id="menu-items">
-        <a href="main.html">Home</a>
-        <a href="desafios.html">Desafíos</a>
-        <a href="">Eventos</a>
-        <a href="#">Sección 4</a>
-    </nav>
-
-    <div class="Profile-image"></div>
-
-</header>-->
