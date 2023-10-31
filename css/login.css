@@ -6,6 +6,12 @@ body{
     margin-top: 20px;
 }
 
+h1{
+    font-size: 320%;
+    color: #668666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 form{
     border: 1px solid #668666 ;
     display: flex;
@@ -80,6 +86,7 @@ button{
     padding-bottom: 15px;
     margin-bottom: 10px;
     border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #b2:hover{
@@ -95,6 +102,6 @@ button{
 .tit{
     font-size: 130%;
     color: #668666;
-    font-weight: bold;
+    font-weight:lighter;
     font-family: Arial, Helvetica, sans-serif;
 }
