@@ -11,53 +11,35 @@
 
 <body style="background-image: url(./images/patronflojito.png);  background-size: 40%;">
 
-    <!--<header>
-
-        <a class="logo" href="/">
-            <DIV class="profile-image"><img src="images/Tomatina.png" alt="isotipo">
-            </DIV>
-            <span>ChefConnect</span>
-        </a>
-
-
-
-
-        <nav id="menu-items">
-            <a href="main.html">Home</a>
-            <a href="desafios.html">Desafíos</a>
-            <a href="">Eventos</a>
-            <a href="#">Sección 4</a>
-        </nav>
-
-        <div class="Profile-image"></div>
-
-    </header>-->
-
     <form action="index.html" method="get">
 
-        <label class="tit" for="">Email</label><br>
-        <input type="email" name="email" id="email" required><br><br>
+        <div id="text">
+            <label class="tit" for="">Email</label><br>
+            <input type="email" name="email" id="email" required class="innput"><br><br>
+    
+            <label class="tit" for="">Password</label> <br>
+            <input type="password" name="pass" id="pass" required class="innput" ><br><br>
+    
+            <label class="tit" for=""> Confirmar password</label> <br>
+            <input type="password" name="c_pass" id="c_pass" required class="innput"><br><br>
+    
+            <label class="tit" for="">Nombre de usuario</label> <br>
+            <input type="text" name="username" id="user" required class="innput"><br><br>
 
-        <label class="tit" for="">Password</label> <br>
-        <input type="password" name="pass" id="pass" required><br><br>
-
-        <label class="tit" for=""> Confirmar password</label> <br>
-        <input type="password" name="c_pass" id="c_pass" required><br><br>
-
-        <label class="tit" for="">Nombre de usuario</label> <br>
-        <input type="text" name="username" id="user" required><br><br>
+        </div>
+       
 
         <span class="tit" >Género</span> <br>
         <div id="gen">
             <input type="radio" id="hombre" name="genero" value="Hombre" class="radiob">
-            <label for="hombre">Hombre</label>
+            <label for="hombre" class="label_radio">Hombre</label>
             <input type="radio" id="mujer" name="genero" value="Mujer" class="radiob">
-            <label for="mujer">Mujer</label>
+            <label for="mujer"  class="label_radio">Mujer</label>
             <input type="radio" id="otro" name="genero" value="Otro" class="radiob">
-            <label for="otro">Otro</label> <br><br><br>
+            <label for="otro"  class="label_radio">Otro</label>
         </div>
    
-
+        <br><br>
         
         <span class="tit" >Experiencia en cocina</span> <br>
         <select name="experienc" id="experiencia">
@@ -72,37 +54,33 @@
         <span class="tit" >Especialidades</span> <br>
         <div id="espec">
             <input type="checkbox" id="vegano" name="vegano" value="1" class="radiob">
-            <label for="vegano"> Vegan Food</label>
+            <label for="vegano" class="label_espec"> Vegan Food</label>
 
             <input type="checkbox" id="gluten" name="gluten" value="1" class="radiob">
-            <label for="gluten"> Gluten Free</label>
+            <label for="gluten" class="label_espec"> Gluten Free</label>
 
             <input type="checkbox" id="japonesa" name="japonesa" value="1" class="radiob">
-            <label for="japonesa"> Japonesa</label>
+            <label for="japonesa"class="label_espec"> Japonesa</label>
 
             <input type="checkbox" id="china" name="china" value="1" class="radiob">
-            <label for="china"> China</label>
+            <label for="china"class="label_espec"> China</label>
 
             <input type="checkbox" id="thai" name="thai" value="1" class="radiob">
-            <label for="thai"> Thailandesa</label>
+            <label for="thai"class="label_espec"> Thailandesa</label>
 
             <input type="checkbox" id="tapas" name="tapas" value="1" class="radiob">
-            <label for="tapas"> Tapas</label>
+            <label for="tapas"class="label_espec"> Tapas</label>
 
             <input type="checkbox" id="Pasta" name="Pasta" value="1" class="radiob">
-            <label for="Pasta"> Pasta</label>
+            <label for="Pasta"class="label_espec"> Pasta</label>
 
             <input type="checkbox" id="pizza" name="pizza" value="1" class="radiob">
-            <label for="pizza"> Pizza</label>
+            <label for="pizza"class="label_espec"> Pizza</label>
         </div>
 
         <br><br>
 
         <button type="submit" id="b2">Crear tu cuenta</button><br>
-
-
-
-
     </form>
 
 </body>
