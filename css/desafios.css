@@ -93,9 +93,27 @@
     color: #e8644d;
 }
 
+.join2 {
+    width: 400px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #668666   ;
+    color: #668666;
+}
+
 .join:hover {
 
     background-color: #e8644d;
     border: 1px solid #e8644d;
     color: white;
+}
+
+div div.desafio:nth-child(2){
+    border: 1px solid #668666;
+    padding: 5px;
 }
