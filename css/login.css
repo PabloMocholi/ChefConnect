@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 320%;
+    color: #668666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    border: 1px solid #668666 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+input {
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50%;
+    border-radius: 8px;
+    border: 1px solid #668666;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.innput{
+    margin-bottom: 10px;
+}
+
+#gen,#experiencia,#espec{
+
+    margin-bottom: 25px;
+}
+
+#gen{
+    display: flex;
+    width: 53%;
+}
+
+.radiob{
+    width: 20px;
+}
+
+.label_radio{
+    flex-grow: 1;
+}
+
+#experiencia{
+    width: 53%;
+    padding: 10px;
+    background-color:#F9F2E9 ;
+    border-radius: 10px;
+    border: 1px solid #668666;
+}
+
+#espec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 56%;
+}
+.label_espec{
+    margin-right: 10px;
+}
+
+button{
+    width: 53%;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#b2:hover{
+    font-weight: bold;
+}
+
+#b2{
+    color:#e8644d;
+    border: 1px solid #e8644d;
+    background-color: white;
+}
+
+.tit{
+    font-size: 130%;
+    color: #668666;
+    font-weight:lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}

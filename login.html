@@ -1,33 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/chefconnect.css">
+    <link rel="stylesheet" href="./css/login.css">
+
     <title>Login</title>
 </head>
-<body style="background-image: url(./images/patron.png);  background-size: 40%;">
+
+<body style="background-image: url(./images/patronflojito.png);  background-size: 40%;">
+
+    <form action="index.html" method="get">
+
+        <h1>Únete a ChefConnect</h1>
+
+        <div id="text">
+            <label class="tit" for="">Email</label><br>
+            <input type="email" name="email" id="email" required class="innput"><br><br>
     
+            <label class="tit" for="">Password</label> <br>
+            <input type="password" name="pass" id="pass" required class="innput" ><br><br>
+    
+            <label class="tit" for=""> Confirmar password</label> <br>
+            <input type="password" name="c_pass" id="c_pass" required class="innput"><br><br>
+    
+            <label class="tit" for="">Nombre de usuario</label> <br>
+            <input type="text" name="username" id="user" required class="innput"><br><br>
+
+        </div>
+       
+
+        <span class="tit" >Género</span> <br>
+        <div id="gen">
+            <input type="radio" id="hombre" name="genero" value="Hombre" class="radiob">
+            <label for="hombre" class="label_radio">Hombre</label>
+            <input type="radio" id="mujer" name="genero" value="Mujer" class="radiob">
+            <label for="mujer"  class="label_radio">Mujer</label>
+            <input type="radio" id="otro" name="genero" value="Otro" class="radiob">
+            <label for="otro"  class="label_radio">Otro</label>
+        </div>
+   
+        <br><br>
+        
+        <span class="tit" >Experiencia en cocina</span> <br>
+        <select name="experienc" id="experiencia">
+            <option value="principiante">Principiante</option>
+            <option value="intermedia">Intermedio</option>
+            <option value="experimentado">Experimentada</option>
+            <option value="profesional">Profesional</option>
+        </select>
+      
+        <br><br>
+
+        <span class="tit" >Especialidades</span> <br>
+        <div id="espec">
+            <div>
+                <input type="checkbox" id="vegano" name="vegano" value="1" class="radiob">
+                <label for="vegano" class="label_espec"> Vegan Food</label>
+            </div>
+  
+            <div>
+                <input type="checkbox" id="gluten" name="gluten" value="1" class="radiob">
+                <label for="gluten" class="label_espec"> Gluten Free</label>
+            </div>
+           
+            <div> 
+                <input type="checkbox" id="japonesa" name="japonesa" value="1" class="radiob">
+                <label for="japonesa"class="label_espec"> Japonesa</label>
+            </div>
+           
+            <div>
+                <input type="checkbox" id="china" name="china" value="1" class="radiob">
+                <label for="china"class="label_espec"> China</label>
+            </div>
+            
+
+            <div>
+                <input type="checkbox" id="thai" name="thai" value="1" class="radiob">
+                <label for="thai"class="label_espec"> Thailandesa</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="tapas" name="tapas" value="1" class="radiob">
+                <label for="tapas"class="label_espec"> Tapas</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="Pasta" name="Pasta" value="1" class="radiob">
+                <label for="Pasta"class="label_espec"> Pasta</label>
+            </div>
+           
+            <div>
+                <input type="checkbox" id="pizza" name="pizza" value="1" class="radiob">
+                <label for="pizza"class="label_espec"> Pizza</label>
+            </div>
+           
+            <div>
+                <input type="checkbox" id="postre" name="postre" value="1" class="radiob">
+                <label for="postre"class="label_espec"> Postres</label>
+            </div>
+
+        </div>
+
+        <br><br>
+        <div>
+            <input type="checkbox" id="politica" name="politica" value="1" class="radiob" required>
+            <label for="politica"class="label_espec"> Lee atentamente las <a href="privacidad.html"><i>Políticas de privacidad y Términos de uso</i></a></label>
+        </div>
+        
+        <br><br>
+
+        <button type="submit" id="b2">Crear tu cuenta</button><br>
+    </form>
+
 </body>
+
 </html>
-
-<header>
-    <a class="logo" href="/">
-        <DIV class="profile-image"><img src="images/Tomatina.png" alt="isotipo">
-        </DIV>
-        <span>ChefConnect</span>
-    </a>
-
-
-
-
-    <nav id="menu-items">
-        <a href="main.html">Home</a>
-        <a href="desafios.html">Desafíos</a>
-        <a href="">Eventos</a>
-        <a href="#">Sección 4</a>
-    </nav>
-
-    <div class="Profile-image"></div>
-
-</header>

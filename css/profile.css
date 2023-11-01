@@ -37,6 +37,11 @@
     text-align: justify;
     
 }
+.h5_tit{
+    font-size: 110%;
+    font-weight: 500;
+    margin: 0;
+}
 
 h3{
     font-size: 180% ;
@@ -95,7 +100,7 @@ h2{
 .receta{
     margin-top: 45px;
     height: 400px;
-    width: 500px;
+    width: 400px;
     border-radius: 15px;
 
 }
@@ -140,6 +145,10 @@ h2{
     padding: 20px;
     margin-top: 150px;
     font-size: 200%;
-
-    
 }
+
+a{
+    text-decoration: none;
+    color:black
+}
+
