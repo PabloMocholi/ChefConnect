@@ -1,0 +1,135 @@
+#input {  
+    height: 60px;
+    flex-shrink: 0;
+    padding: 8px;
+    border: none;
+    flex-grow: 1;
+    color: rgb(94, 94, 94);
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 24px;
+    width: 100%;
+  
+
+
+}
+
+
+#textarea {
+   
+    height: 100%;
+    flex-shrink: 0;
+    background-color: transparent;
+    margin-right: 0;
+    padding: 8px;
+    border: none;
+    flex-grow: 1;
+    color: rgb(94, 94, 94);
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    width: 100%;
+    
+  
+}
+
+* {
+    border: none;
+ 
+    
+}
+
+
+.label {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    width: 100%;
+    
+  
+}
+
+
+
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    width: 100%;
+   
+    ;
+}
+
+
+
+
+#fieldset {
+    width: 100%;
+height: auto;
+    display: flex;
+    
+    flex-wrap: wrap;
+   margin-left: 40px;
+   margin-right: 40px;
+   
+
+}
+
+.fila {
+    width: 100%;
+
+
+}
+
+#imagenytexto img {
+    width: 300px;
+
+   
+}
+
+#imagenytexto {
+    display: flex;
+    width: 100%;
+    
+}
+
+#image {
+    background-image: url(../images/hamburguesa.jpg);
+    background-image: url(../images/img-home.jpg);
+}
+
+#buttonguardar  {
+  
+    text-decoration: none;
+    font-size: 24px;
+    padding: 24px;
+   text-decoration: none;
+   color: white;
+    font-weight: bolder;
+    background-color: #E8644D;
+    border-radius: 8px;
+  right: 0;
+    stroke: none;
+    margin-left: 40px;
+
+    
+}
+
+#buttoncancelar {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 24px;
+    text-decoration: none;
+   color: black;
+   list-style: 2px;
+   margin-left: 40px;
+}

@@ -337,7 +337,9 @@
     border-radius: 800px;
     stroke: none;
     transition: all 0,6s ease;
+   
 
+ 
 
 }
 
@@ -349,3 +351,6 @@
 background-color: black;
 }
 
+#imagenytexto {
+    display: flex;
+}

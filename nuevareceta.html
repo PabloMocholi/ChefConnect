@@ -6,36 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/chefconnect.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/nuevareceta.css">
     <title>Inicio ChefConnect</title>
 </head>
 
 <body>
 
 
-
-
-    <!--MENÚ ANTIGUO 
-<nav>
-    <header id="header">
-        <li class="logo"><img src="images/Tomatina.png" alt="Isotipo">  <span> ChefConnect</span></li>
-        <li><a href="#">
-            <div class="Profile-image">
-            </div>
-        </a></li>
-        
-        <div class="menu-items">
-            <li><a href="">Home</a></li>
-            <li><a href="">Eventos</a></li>
-            <li><a href="">Desafíos</a></li>
-            
-        </div>
- </nav>    
-    </header>
-   -->
-
-
-
     <!-- HEADER -->
+
 
 
     <header>
@@ -44,7 +23,6 @@
             </DIV>
             <span>ChefConnect</span>
         </a>
-
 
 
         <nav id="menu-items">
@@ -60,11 +38,123 @@
 
     </header>
 
- <!-- Formulario -->
 
- <form action="main.html" method="post">
-    <h5>Nueva receta</h5>
- </form>
+    <!-- BANNER -->
+
+    <div id="banner">
+
+        <div id="contentbanner">
+            <div id="Textbanner">
+                <span>Nueva receta</span>
+            </div>
+
+            <div id="Textbannerlorem">
+                <p style="margin: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            </div>
+
+        </div>
+
+    </div>
 
 
-    </body>
+    <!-- Formulario -->
+
+ <div id="imagenytexto">
+
+    
+
+    
+    <form action="main.html" method="post">
+        <h2>Nueva receta</h2>
+        <fieldset id="fieldset">
+
+            <div class="fila">
+
+
+                <div class="columna">
+
+                    <!-- Nombre receta -->
+                    <div >
+                        <label class=label for="name">Nombre receta</label>
+                        <input type="text" name="nombre_receta" id="input">
+                    </div>
+
+
+                    <!-- tags -->
+                    <div >
+                        <label class=label for="tags">Tags características</label>
+                        <input type="text" name="tags" id="input">
+                    </div>
+
+                </div>
+
+                <div class="columna">
+
+                    <!-- Dificultad -->
+
+
+                    <div class="input">
+                        <label class=label for="state">Dificultad</label>
+                        <select name="dificultad" id="input">
+                            <option value="FácilL">Fácil</option>
+                            <option value="Medio">Medio</option>
+                            <option value="Dificil">Dificil</option>
+                        </select>
+                    </div>
+
+
+                    <!-- Tiempo de preparación -->
+                    <div class="input">
+                        <label class=label for="time">Tiempo de preparación</label>
+                        <select name="time" id="input">
+                            <option value="FácilL">menos 10 minutos</option>
+                            <option value="Medio">Entre 10 y 30 minutos</option>
+                            <option value="Dificil">Más de 30 minutos</option>
+                        </select>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+            <!-- ingredientes -->
+            <div class="input">
+
+                <label class=label for="ingredientes">Ingredientes</label>
+                <div id="textarea">
+
+                    <textarea name="ingredientes" id="ingredientes" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <!-- Descripción -->
+            <div class="input">
+
+                <label class=label for="descripcion">Descripción</label>
+                <div id="textarea">
+                    <textarea name="descripcion" id="description" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+          
+            
+
+        </fieldset>
+        
+
+
+</div>
+
+<a id="buttonguardar" href="#"> Guardar receta</a>
+<a id="buttoncancelar" href="#"> cancelar</a>
+    </form>
+
+
+</body>
